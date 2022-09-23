@@ -1,0 +1,55 @@
+:root{
+    --font-color-blue: #6229ff;
+
+    --font-10:0.625rem;
+    --font-12:0.75rem;
+    --font-14:0.875rem;
+    --font-16:1rem;
+    --font-18:1.125rem;
+    --font-20:1.25rem;
+    --font-30:1.875rem;
+    --font-40:2.5rem;
+    --font-50:3.125rem;
+    --font-100:6.25rem;
+    --font-150:9.375rem;
+
+    --font-color-grey:#969696;
+
+
+    --logo:url("./project_logo/logo.svg")
+
+}
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+
+h1,p{
+    margin:0;
+    padding:0;
+}
+p{color:var(--font-color-grey);}
+ul li a:nth-of-type(2){color:rgb(0, 89, 255);}
+a{
+    text-decoration: none;
+    color:var(--font-color-blue);
+    font-size: 20px;
+}
+ul{list-style: none;}
+
+.container{
+    max-width: 1200px;
+    width: calc(100vw - 10%);
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+section{
+    margin-bottom: var(--font-100);
+}
+
+
