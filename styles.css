@@ -1,6 +1,6 @@
-
 html{scroll-behavior: smooth;}
 
+body{overflow:hidden;}
 
 .navbar, .background, .part1{
     top:0;
