@@ -1,7 +1,4 @@
 html{scroll-behavior: smooth;}
-*{overflow-x:hidden;}
-
-body{overflow:hidden;}
 
 .navbar, .background, .part1{
     top:0;
